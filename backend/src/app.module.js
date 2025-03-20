@@ -1,4 +1,7 @@
 "use strict";
+import { DbModule } from './db/db.module';
+import { ProjetoModule } from './projeto/projeto.module';
+import { TecnologiaModule } from './tecnologia/tecnologia.module';
 var __esDecorate = (this && this.__esDecorate) || function (ctor, descriptorIn, decorators, contextIn, initializers, extraInitializers) {
     function accept(f) { if (f !== void 0 && typeof f !== "function") throw new TypeError("Function expected"); return f; }
     var kind = contextIn.kind, key = kind === "getter" ? "get" : kind === "setter" ? "set" : "value";
